@@ -426,7 +426,7 @@ def show_reaction_simulator():
         for i, r in enumerate(REACTIONS):
             with st.expander(f"Reaksi {i+1}: {r['type']}"):
                 st.markdown(f"*Persamaan:* {r['equation']}")
-                st.markdown(f"*Pereaksi:* {', '.join(r['reagents']}")
+                st.markdown(f"*Pereaksi:* {', '.join(r['reagents'])}")
                 st.markdown(f"*Produk:* {', '.join(r['products'])}")
 
 # Fungsi untuk menampilkan informasi tambahan
