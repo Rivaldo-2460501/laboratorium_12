@@ -680,6 +680,7 @@ def show_periodic_table():
         legend_title_text="Kategori",
         font=dict(size=14),
         hoverlabel=dict(font_size=16)
+    )
     
     st.plotly_chart(fig, use_container_width=True)
 
