@@ -672,7 +672,7 @@ def show_periodic_table():
         height=600
     )
     
-    fig.update_layout(
+    fig.update_layout()
         title="Massa Atom vs Nomor Atom",
         xaxis_title="Nomor Atom",
         yaxis_title="Massa Atom",
@@ -680,7 +680,6 @@ def show_periodic_table():
         legend_title_text="Kategori",
         font=dict(size=14),
         hoverlabel=dict(font_size=16)
-    )
     
     st.plotly_chart(fig, use_container_width=True)
 
